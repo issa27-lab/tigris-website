@@ -317,3 +317,11 @@ footer{
 .reveal-d1{transition-delay:.1s}
 .reveal-d2{transition-delay:.2s}
 .reveal-d3{transition-delay:.3s}
+
+/* Inline line icons (replace emoji) */
+.ico{width:1em;height:1em;vertical-align:-.15em;display:inline-block;flex:none}
+.topbar .ico{color:var(--cyan);margin-right:.15rem}
+.footer-col .ico-line{display:flex;align-items:flex-start;gap:.5rem;color:var(--text-3);font-size:.92rem}
+.footer-col .ico-line .ico{margin-top:.2em;color:var(--cyan)}
+.footer-col .ico-line a{display:flex;align-items:flex-start;gap:.5rem}
+.footer-col .ico-line a .ico{margin-top:.2em}
