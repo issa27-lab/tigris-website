@@ -29,17 +29,4 @@ const observer = new IntersectionObserver((entries) => {
 document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
 
 // Form submit handler
-document.querySelectorAll('form.tigris-form').forEach(form => {
-  form.addEventListener('submit', e => {
-    e.preventDefault();
-    alert("Thanks! We'll call you within 15 minutes during business hours, or first thing tomorrow morning.");
-  });
-});
 
-// Newsletter
-document.querySelectorAll('.footer-newsletter').forEach(form => {
-  form.addEventListener('submit', e => {
-    e.preventDefault();
-    alert('Thanks for subscribing!');
-  });
-});

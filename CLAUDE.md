@@ -129,9 +129,9 @@ Don't introduce new colors without asking. If you need a tint or shade, use `rgb
 - Don't introduce jQuery, React, or anything else
 - Existing patterns: IntersectionObserver for scroll reveal, click toggle for FAQ
 
-### Forms
-- The contact form has class `tigris-form` — `script.js` handles submission with a stub alert
-- **The form does not actually send anywhere yet.** When the user is ready to wire it up, options include Netlify Forms (just add `netlify` attribute to the form tag), Formspree, or a custom backend. Ask the user which they prefer.
+### Forms / calls to action
+- **There are no forms on the site (by owner decision, Sept 2026).** The only call to action is the phone number: `tel:9164763052`. Every "quote" / "book" button is a call button.
+- Do not add a contact form, quote form, newsletter signup, or chat widget unless the owner explicitly asks.
 
 ## Things to be careful about
 
@@ -149,7 +149,7 @@ There's no automated test suite. After making changes:
 3. Resize the browser to mobile width — make sure layout still works
 4. Test the mobile menu toggle (hamburger icon)
 5. Test FAQ accordions if you touched FAQ
-6. Test the contact form submission (currently shows alert)
+6. Confirm every CTA button is a `tel:9164763052` link (there are no forms)
 
 ## Deployment
 
