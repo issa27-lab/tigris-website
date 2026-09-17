@@ -56,7 +56,7 @@ If you change something nav-related on one page, **always verify the same change
 
 - Honest, local, no hype. We're a real shop in Sacramento, not a chain.
 - Lead with shop visits; treat mobile as a supplement for customers who can't come in.
-- Trust signals: AAA Approved, Autel ADAS Certified, CA Safety Inspection Center, lifetime warranty, $0 deductible, 500+ five-star reviews.
+- Trust signals: AAA Approved, Autel ADAS Certified, CA Safety Inspection Center, lifetime warranty, $0 deductible, 1,000+ Google reviews at 4.7★.
 - Specific over vague: "60–90 minutes" not "fast."
 
 ## Brand voice — what NOT to say
@@ -65,7 +65,7 @@ These are explicitly forbidden. The user has had legal/factual issues with them:
 
 - ❌ "OEM-quality glass" (not certifiable)
 - ❌ "$99 windshield" or "$49 chip repair" (specific pricing not approved)
-- ❌ "5-star rated" (the term is contested; "500+ five-star reviews" is fine)
+- ❌ "5-star rated" / "4.9 stars" / "500+ five-star" (use the real Google number: 4.7★ from 1,000+ reviews)
 - ❌ Any pricing claim that isn't insurance-related
 
 When the user asks you to write new marketing copy, stick to approved selling points only. If you're unsure, ask before writing.

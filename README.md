@@ -27,7 +27,7 @@ tigris-site/
 ├── about.html          About — story, values, certifications
 ├── services.html       Services — all 7 services in detail
 ├── areas.html          Service areas — coverage map + 8 cities
-├── reviews.html        Reviews — 4.9★ summary + 9 testimonials
+├── reviews.html        Reviews — 4.7★ / 1,000+ Google reviews summary + 9 testimonials
 ├── faq.html            FAQ — 13 questions across 3 categories
 ├── contact.html        Contact — info card, form, embedded Google map
 ├── styles.css          Shared design system (used by all pages)
@@ -101,14 +101,14 @@ State Farm, GEICO, Progressive, Allstate, Farmers, USAA, AAA, Mercury, and most 
 - Lifetime warranty
 - ADAS calibration in-house
 - Free quotes
-- 500+ five-star reviews
+- 1,000+ Google reviews (4.7★ — match the live Google Business Profile number)
 - 8+ years serving Sacramento
 
 ### ❌ DO NOT use these claims (legal/factual issues)
 - "OEM-quality glass"
 - "$99 windshield"
 - "$49 chip repair"
-- "5-star rated" (use "500+ five-star reviews" instead)
+- "5-star rated" (use "1,000+ Google reviews, 4.7★" instead)
 
 ---
 
