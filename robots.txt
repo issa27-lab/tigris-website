@@ -1,5 +1,4 @@
 User-agent: *
 Allow: /
 
-# Update this with your real domain when deployed
-# Sitemap: https://tigrisautoglass.com/sitemap.xml
+Sitemap: https://tigrisautoglass.com/sitemap.xml
