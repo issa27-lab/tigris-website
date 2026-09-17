@@ -1,0 +1,42 @@
+# Redirects from old WordPress URLs to the static site (Cloudflare Pages)
+# Format: old-path  new-path  status
+
+# Pages with a direct equivalent
+/about/                                  /about.html      301
+/about                                   /about.html      301
+/services/                               /services.html   301
+/services                                /services.html   301
+/services/*                              /services.html   301
+/contact/                                /contact.html    301
+/contact                                 /contact.html    301
+/faq/                                    /faq.html        301
+/faq                                     /faq.html        301
+/reviews/                                /reviews.html    301
+/reviews                                 /reviews.html    301
+
+# Everything else from WordPress goes to the homepage
+/vehicles/*                              /                301
+/land-rover/                             /                301
+/care-tips/                              /                301
+/wholesale/                              /                301
+/privacy-policy/                         /                301
+/refund_returns/                         /                301
+/category/*                              /                301
+/tag/*                                   /                301
+/author/*                                /                301
+/feed/                                   /                301
+/wp-admin/*                              /                301
+/wp-login.php                            /                301
+/wp-content/*                            /                301
+
+# Old blog posts
+/discover-the-best-windshield-wiper-blades-for-crystal-clear-vision/   /   301
+/auto-glass-care-101-tips-for-crystal-clear-views/                     /   301
+/finding-reliable-car-window-repair-services/                          /   301
+/benefits-of-mobile-auto-glass-repair-services/                        /   301
+/essential-guide-to-windshield-repair-kits/                            /   301
+/finding-the-best-auto-glass-replacement-services/                     /   301
+/affordable-auto-glass-solutions-for-everyone/                         /   301
+/cheap-windshield-replacement-no-insurance/                            /   301
+/choosing-the-right-windshield-replacement-service/                    /   301
+/essential-guide-to-auto-glass-replacement-sacramento/                 /   301
