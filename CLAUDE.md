@@ -13,7 +13,7 @@ The audience is local Sacramento drivers who need a windshield repaired, replace
 - **Pure static HTML/CSS/JS.** No build step, no npm, no framework.
 - **Don't introduce build tooling, React, Tailwind, or any framework** unless the user explicitly asks. If the user asks for "a fancier interaction" or similar, do it in vanilla JS first.
 - **Don't add npm dependencies.** No `package.json` exists and shouldn't be added without explicit consent.
-- **External resources allowed:** Google Fonts, Google Maps embed iframe. That's it. No analytics, trackers, or third-party scripts unless requested.
+- **External resources allowed:** Google Fonts, Google Maps embed iframe, and the Google tag `GT-WB7MKQK` (gtag.js in every page's `<head>` — it powers Google Ads conversion tracking and Analytics; never remove it). Nothing else unless requested.
 
 ## Files
 
