@@ -2,17 +2,12 @@
 # Format: old-path  new-path  status
 
 # Pages with a direct equivalent
-/about/                                  /about.html      301
-/about                                   /about.html      301
-/services/                               /services.html   301
-/services                                /services.html   301
-/services/*                              /services.html   301
-/contact/                                /contact.html    301
-/contact                                 /contact.html    301
-/faq/                                    /faq.html        301
-/faq                                     /faq.html        301
-/reviews/                                /reviews.html    301
-/reviews                                 /reviews.html    301
+/about/                                  /about      301
+/services/                               /services   301
+/services/*                              /services   301
+/contact/                                /contact    301
+/faq/                                    /faq        301
+/reviews/                                /reviews    301
 
 # Everything else from WordPress goes to the homepage
 /vehicles/*                              /                301
