@@ -6,6 +6,10 @@ Multi-page marketing website for [Tigris Auto Glass](https://tigrisautoglass.com
 
 ---
 
+## Service & city pages
+
+`services/<slug>.html` (7 pages) and `areas/<slug>.html` (8 pages) are dedicated SEO landing pages served at `/services/<slug>` and `/areas/<slug>`. They use absolute asset paths and are listed in `sitemap.xml`.
+
 ## Stack
 
 Pure static HTML/CSS/JS. No build step, no framework, no dependencies.

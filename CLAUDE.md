@@ -24,7 +24,11 @@ services.html       All 7 services in detail
 areas.html          Service area coverage
 reviews.html        Customer reviews
 faq.html            FAQ accordion
-contact.html        Contact form + map
+contact.html        Call-to-book page + map (no form)
+services/*.html     7 service detail pages (one per service) — clean URLs /services/<slug>
+areas/*.html        8 city pages (one per service-area city) — clean URLs /areas/<slug>
+sitemap.xml         All 22 URLs; bump <lastmod> when a page changes
+_redirects          Cloudflare Pages redirects from old WordPress URLs
 styles.css          SHARED design system (used by every page)
 script.js           SHARED interactions (used by every page)
 images/             Branded product photos (PNG, do not delete)
@@ -33,6 +37,10 @@ CLAUDE.md           This file
 ```
 
 Each HTML page is self-contained for its layout but loads `styles.css` and `script.js`. Page-specific CSS goes in a `<style>` tag in that page's `<head>` — keep it there, don't move it to `styles.css` unless it's truly reused across pages.
+
+### Service and city pages (added Sept 2026)
+
+`services/` and `areas/` pages use **absolute paths** (`/styles.css`, `/images/...`, `/about`) because they live one folder deep. They duplicate the same topbar/nav/footer as the root pages, so a nav or footer change means updating all 22 HTML files. Each page carries its own `<style>` block, JSON-LD (Service or WebPage + BreadcrumbList + FAQPage), canonical, and the Google tag. Do not use the word "OEM" in new copy — say "DOT-certified glass".
 
 ## Critical: shared header/footer/nav
 

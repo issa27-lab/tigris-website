@@ -4,7 +4,13 @@
 # Pages with a direct equivalent
 /about/                                  /about      301
 /services/                               /services   301
-/services/*                              /services   301
+/services/windshield-replacement/  /services/windshield-replacement  301
+/services/windshield-repair/  /services/windshield-repair  301
+/services/back-window-replacement/  /services/back-window-replacement  301
+/services/side-window-replacement/  /services/side-window-replacement  301
+/services/sunroof-replacement/            /services   301
+/services/adas-camera-recalibration/  /services/adas-camera-recalibration  301
+/services/power-window-repair/  /services/power-window-repair  301
 /contact/                                /contact    301
 /faq/                                    /faq        301
 /reviews/                                /reviews    301
