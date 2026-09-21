@@ -1,0 +1,6 @@
+# Cloudflare Pages headers. HTML/CSS/JS revalidate on every load so deploys show up immediately;
+# images are immutable-ish and can be cached for a week.
+/*
+  Cache-Control: public, max-age=0, must-revalidate
+/images/*
+  Cache-Control: public, max-age=604800
