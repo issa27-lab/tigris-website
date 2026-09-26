@@ -1,6 +1,9 @@
 # Redirects from old WordPress URLs to the static site (Cloudflare Pages)
 # Format: old-path  new-path  status
 
+# www -> apex (requires www added as a custom domain on the Pages project)
+https://www.tigrisautoglass.com/*  https://tigrisautoglass.com/:splat  301
+
 # Pages with a direct equivalent
 /about/                                  /about      301
 /services/                               /services   301
@@ -20,7 +23,7 @@
 /land-rover/                             /                301
 /care-tips/                              /                301
 /wholesale/                              /                301
-/privacy-policy/                         /                301
+/privacy-policy/                         /privacy         301
 /refund_returns/                         /                301
 /category/*                              /                301
 /tag/*                                   /                301

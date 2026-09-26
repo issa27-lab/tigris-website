@@ -24,7 +24,8 @@ services.html       All 7 services in detail
 areas.html          Service area coverage
 reviews.html        Customer reviews
 faq.html            FAQ accordion
-contact.html        Call-to-book page + map (no form)
+contact.html        Call-to-book page + map (no form) + SMS consent notice
+privacy.html        Privacy Policy (SMS/TCPA compliance; linked from every footer)
 services/*.html     7 service detail pages (one per service) — clean URLs /services/<slug>
 areas/*.html        8 city pages (one per service-area city) — clean URLs /areas/<slug>
 sitemap.xml         All 22 URLs; bump <lastmod> when a page changes
