@@ -44,3 +44,7 @@ https://www.tigrisautoglass.com/*  https://tigrisautoglass.com/:splat  301
 /cheap-windshield-replacement-no-insurance/                            /   301
 /choosing-the-right-windshield-replacement-service/                    /   301
 /essential-guide-to-auto-glass-replacement-sacramento/                 /   301
+
+# Google Ads landing URL alias
+/power-window-repair/   /services/power-window-repair   301
+/power-window-repair    /services/power-window-repair   301
