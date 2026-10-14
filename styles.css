@@ -325,3 +325,8 @@ footer{
 .footer-col .ico-line .ico{margin-top:.2em;color:var(--cyan)}
 .footer-col .ico-line a{display:flex;align-items:flex-start;gap:.5rem}
 .footer-col .ico-line a .ico{margin-top:.2em}
+
+/* Footer social links */
+.footer-social{display:flex;gap:.6rem;margin-top:.25rem}
+.footer-social a{display:inline-flex;align-items:center;justify-content:center;width:36px;height:36px;border-radius:50%;background:rgba(10,35,66,.07);color:var(--navy);transition:background .2s,color .2s}
+.footer-social a:hover{background:var(--cyan);color:#fff}
